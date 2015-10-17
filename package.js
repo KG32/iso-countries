@@ -10,8 +10,8 @@ Package.onUse(function(api) {
     api.versionsFrom(['METEOR@0.9.0', 'METEOR@1.0']);
     api.use(["templating", "meteor-base"], "client");
     api.addFiles(['iso-countries.js']);
-    api.export('convertCountry');
-    api.export('convertCountryRev');
+    api.export('convertCountryName');
+    api.export('convertCountryCode');
 });
 
 Package.onTest(function(api) {

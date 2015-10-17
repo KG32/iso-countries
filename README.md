@@ -6,6 +6,7 @@ This package lets you convert countries to ISO codes and vice versa.
 
 meteor add kg32:iso-countries
 
+
 ## Usage examples:
 
 Functions

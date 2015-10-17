@@ -245,14 +245,14 @@ Countries = [
     {name:'Zimbabwe', iso:'zw'}
 ];
 
-convertCountry = function(id) {
+convertCountryName = function(id) {
     for(ccCount=0; ccCount<Countries.length; ccCount++) {
         if(Countries[ccCount].id == id) {
             return Countries[ccCount].name;
         };
     };
 };
-convertCountryRev = function(name) {
+convertCountryCode = function(name) {
     for(ccCount=0; ccCount<Countries.length; ccCount++) {
         if(Countries[ccCount].name == name) {
             return Countries[ccCount].id;

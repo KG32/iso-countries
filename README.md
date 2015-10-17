@@ -17,6 +17,10 @@ convertCountryCode('gb');       // 'United Kingdom'
 
 HTML dropdowns
 ```
+{{> ISOCountriesSelect}}
+```
+or manually:
+```
 <select>
   {{#each ISOCountries}}
     <option value={{iso}}>{{name}}</option>

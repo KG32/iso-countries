@@ -18,7 +18,7 @@ HTML dropdowns
 ```
 <select>
   {{#each ISOCountries}}
-    <option value="{{iso}}">{{name}}</option>
+    <option value={{iso}}>{{name}}</option>
   {{/each}}
 </select>
 ```

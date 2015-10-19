@@ -14,7 +14,7 @@ Countries = [
     {name:'Armenia', iso:'am'},
     {name:'Aruba', iso:'aw'},
     {name:'Australia', iso:'au'},
-    {name:'Austria	', iso:'at'},
+    {name:'Austria', iso:'at'},
     {name:'Azerbaijan', iso:'az'},
     {name:'Bahamas', iso:'bs'},
     {name:'Bahrain', iso:'bh'},
@@ -247,17 +247,17 @@ Countries = [
 
 convertCountryCode = function(iso) {
     for(ccCount=0; ccCount<Countries.length; ccCount++) {
-        if(Countries[ccCount].iso == iso) {
+        if(Countries[ccCount].iso===iso) {
             return Countries[ccCount].name;
-        };
-    };
+        }
+    }
 };
 convertCountryName = function(name) {
     for(ccCount=0; ccCount<Countries.length; ccCount++) {
-        if(Countries[ccCount].name == name) {
+        if(Countries[ccCount].name===name) {
             return Countries[ccCount].iso;
-        };
-    };
+        }
+    }
 };
 
 if(Meteor.isClient) {

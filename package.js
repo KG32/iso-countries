@@ -1,6 +1,6 @@
 Package.describe({
   name: 'kg32:iso-countries',
-  version: '1.0.2',
+  version: '1.0.3',
   summary: 'Convert countries to ISO codes and vice versa.',
   git: 'https://github.com/KG32/iso-countries.git',
   documentation: 'README.md'
